@@ -18,7 +18,7 @@
       
       <guid>https://shijianxu.github.io/posts/my-precious/</guid>
       <description> This post is used to record some interesting or wonderful things I found.
-Videos  7 HOUR 4K DRONE FILM: &amp;ldquo;Earth from Above&amp;rdquo; link  Books Websites  CAS: Cloud Appreciation Society  </description>
+Videos  7 HOUR 4K DRONE FILM: &amp;ldquo;Earth from Above&amp;rdquo; link  Books Websites  CAS: Cloud Appreciation Society Internet Archive: A non-profit library of free books, movies, software, music, websites, and more.  </description>
     </item>
     
     <item>
@@ -34,13 +34,15 @@ $$ x^2 = y^2 $$ \[ a^2 = b^2 \]</description>
     </item>
     
     <item>
-      <title>Unsupervised Training vs. Unpaired Training, or Is GAN Unsupervised?</title>
+      <title>Unsupervised Learning vs. Unpaired Learning, or Is GAN Unsupervised?</title>
       <link>https://shijianxu.github.io/posts/unsupervised-learning-and-unpaired-learning/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://shijianxu.github.io/posts/unsupervised-learning-and-unpaired-learning/</guid>
-      <description>Recently, I was asked about a question: what is unsupervised training and what is unpaired training? Are they the same or are they different? More related problem will be: does GAN belong to unsupervised methods?
-In this post, I want discuss this interesting and important problem.</description>
+      <description> Recently, I was asked about a question: what is unsupervised training and what is unpaired training? Are they the same or are they different? More related problem will be: does GAN belong to unsupervised methods?
+In this post, I want discuss this interesting and important problem.
+Supervised Learning The definition of supervised learning:
+Unsupervised Learning Generative Adversarial Learning Unpaired Learning </description>
     </item>
     
   </channel>
