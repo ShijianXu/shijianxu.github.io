@@ -22,6 +22,18 @@ Videos  7 HOUR 4K DRONE FILM: &amp;ldquo;Earth from Above&amp;rdquo; link  Books
     </item>
     
     <item>
+      <title>Guided Filter</title>
+      <link>https://shijianxu.github.io/posts/guided-filter/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shijianxu.github.io/posts/guided-filter/</guid>
+      <description>math test
+Hello $x^2=y^2$ World
+Hello \(a^2=b^2\) World
+$$ x^2 = y^2 $$ \[ a^2 = b^2 \]</description>
+    </item>
+    
+    <item>
       <title>Unsupervised Training vs. Unpaired Training, or Is GAN Unsupervised?</title>
       <link>https://shijianxu.github.io/posts/unsupervised-learning-and-unpaired-learning/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
@@ -29,18 +41,6 @@ Videos  7 HOUR 4K DRONE FILM: &amp;ldquo;Earth from Above&amp;rdquo; link  Books
       <guid>https://shijianxu.github.io/posts/unsupervised-learning-and-unpaired-learning/</guid>
       <description>Recently, I was asked about a question: what is unsupervised training and what is unpaired training? Are they the same or are they different? More related problem will be: does GAN belong to unsupervised methods?
 In this post, I want discuss this interesting and important problem.</description>
-    </item>
-    
-    <item>
-      <title>Guided Filter</title>
-      <link>https://shijianxu.github.io/posts/guided-filter/</link>
-      <pubDate>Tue, 07 May 2019 21:54:07 +0800</pubDate>
-      
-      <guid>https://shijianxu.github.io/posts/guided-filter/</guid>
-      <description>math test
-Hello $x^2=y^2$ World
-Hello \(a^2=b^2\) World
-$$ x^2 = y^2 $$ \[ a^2 = b^2 \]</description>
     </item>
     
   </channel>
