@@ -3,57 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://shijianxu.github.io/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/posts/my-precious/</loc>
+    <loc>https://shijianxu.github.io/posts/my-precious/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://shijianxu.github.io/posts/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/posts/unsupervised-learning-and-unpaired-learning/</loc>
+    <loc>https://shijianxu.github.io/posts/unsupervised-learning-and-unpaired-learning/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/posts/guided-filter/</loc>
+    <loc>https://shijianxu.github.io/posts/guided-filter/</loc>
     <lastmod>2019-05-07T21:54:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/cv/</loc>
+    <loc>https://shijianxu.github.io/cv/</loc>
     <lastmod>2018-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/about/</loc>
+    <loc>https://shijianxu.github.io/about/</loc>
     <lastmod>2015-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://shijianxu.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/home/</loc>
+    <loc>https://shijianxu.github.io/home/</loc>
   </url>
   
   <url>
-    <loc>https://example.org/license/</loc>
+    <loc>https://shijianxu.github.io/license/</loc>
   </url>
   
   <url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://shijianxu.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
