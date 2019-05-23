@@ -2,7 +2,6 @@
 <html lang="en-US">
 
 <head>
-	<meta name="generator" content="Hugo 0.55.5" />
 <meta charset="utf-8">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -15,24 +14,24 @@
 <meta property="og:site_name" content="DarthXSJ" />
 <meta property="og:locale" content="en-US" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://shijianxu.github.io/" />
-<meta property="og:title" content="DarthXSJ" />
-<meta property="twitter:title" content="DarthXSJ">
+<meta property="og:url" content="https://shijianxu.github.io/posts/setting-mathjax/" />
+<meta property="og:title" content="Setting MathJax" />
+<meta property="twitter:title" content="Setting MathJax">
 
     <meta property="og:image" content="https://shijianxu.github.io/img/banner.png">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:image" content="https://shijianxu.github.io/img/banner.png">
 
-<meta property="og:description" content="Example blog">
-<meta property="twitter:description" content="Example blog">
+<meta property="og:description" content="">
+<meta property="twitter:description" content="">
 
 <title>
 
 
-    DarthXSJ
+     DarthXSJ - Setting MathJax 
 
 </title>
-<link rel="canonical" href="https://shijianxu.github.io/">
+<link rel="canonical" href="https://shijianxu.github.io/posts/setting-mathjax/">
 
 
 <style media="screen">
@@ -320,8 +319,6 @@ div.main .content .title-container {
 }
 div.main .content .posts {
   
-  
-  margin-bottom: 4em;
   
 }
 div.main .content .page-heading {
@@ -987,8 +984,6 @@ margin-left: -4%;
 
 
 
-  <link href="https://shijianxu.github.io/index.xml" rel="alternate" type="application/rss+xml" title="DarthXSJ" />
-
 
 </head>
 
@@ -1024,7 +1019,7 @@ margin-left: -4%;
 <body>
 
 
-<div class="header header-home column">
+<div class="header column">
 
     <div class="container">
         
@@ -1061,68 +1056,107 @@ margin-left: -4%;
     </div>
 </div>
 
+
+
 <div class="main column">
     <div class="container">
         <div class="content">
-            
-                <div class="markdown">
-                <p>Hey! Welcome to my homepage. Here are some articles :</p>
+            <div class="page-heading">
 
-                </div>
-            
+    
+    Setting MathJax
+    
 
-            
+</div>
 
-            <div class="best-posts">
-            
-            
-                <div class="page-heading">Best posts</div>
-                <ul>
+            <div class="markdown">
                 
-                    
-                        <li class="post-item">
-    <span class="meta">May 23, 2019</span>
     
-    <a href="https://shijianxu.github.io/posts/setting-mathjax/"><span>Setting MathJax</span></a>
-    
-</li>
+    <p>To write math expressions in Hugo, a popular method is using <a href="https://www.mathjax.org/">MathJax</a>. This <a href="https://divadnojnarg.github.io/blog/mathjax/">blog</a> gives a quick and simple solution.</p>
 
-                    
-                
-                    
-                        <li class="post-item">
-    <span class="meta">May 10, 2019</span>
-    
-    <a href="https://shijianxu.github.io/posts/my-precious/"><span>My Precious</span></a>
-    
-</li>
+<p>First, write a script. I will copy the script as follow:</p>
 
-                    
-                
-                    
-                        <li class="post-item">
-    <span class="meta">May 9, 2019</span>
-    
-    <a href="https://shijianxu.github.io/posts/unsupervised-learning-and-unpaired-learning/"><span>Unsupervised Learning vs. Unpaired Learning, or Is GAN Unsupervised?</span></a>
-    
-</li>
+<pre><code>&lt;script type=&quot;text/javascript&quot; async
+  src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: &quot;AMS&quot; },
+         extensions: [&quot;AMSmath.js&quot;, &quot;AMSsymbols.js&quot;] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    // Fix &lt;code&gt; tags after MathJax finishes running. This is a
+    // hack to overcome a shortcoming of Markdown. Discussion at
+    // https://github.com/mojombo/jekyll/issues/199
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i &lt; all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
 
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                </ul>
-            
+  MathJax.Hub.Config({
+  // Autonumbering by mathjax
+  TeX: { equationNumbers: { autoNumber: &quot;AMS&quot; } }
+  });
+&lt;/script&gt;
+</code></pre>
+
+<p>What to do next is naming this script like <strong>mathjax_support.html</strong> and saving it in the <em>/layout/partials</em> folder. Then add a line in <strong>header.html</strong>, like this:</p>
+
+<pre><code>{{ partial &quot;mathjax_support.html&quot; . }}
+</code></pre>
+
+<p>It&rsquo;s done! Here are some tests.</p>
+
+<p>$$
+AveP = \int_0^1 p(r) dr
+$$</p>
+
+<p>$$
+\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi \\\ 1+2 \\\ a_6
+$$</p>
+
+<p>$$
+\require{cancel}\begin{array}{rl}
+\verb|y+\cancel{x}| &amp; y+\cancel{x} \newline
+\verb|\cancel{y+x}| &amp; \cancel{y+x} \newline
+\verb|y+\bcancel{x}| &amp; y+\bcancel{x} \newline
+\verb|y+\xcancel{x}| &amp; y+\xcancel{x} \newline
+\verb|y+\cancelto{0}{x}| &amp; y+\cancelto{0}{x} \newline
+\verb+\frac{1\cancel9}{\cancel95} = \frac15+&amp; \frac{1\cancel9}{\cancel95} = \frac15 <br />
+\end{array}
+$$</p>
+
+<p>$$ f(n)= \begin{cases} n/2, &amp; \text {if $n$ is even} \newline 3n+1, &amp; \text{if $n$ is odd} \end{cases} $$</p>
+
+<pre><code>\begin{cases}
+\dot{x} &amp; = \sigma(y-x) \newline
+\dot{y} &amp; = \rho x - y - xz \newline
+\dot{z} &amp; = -\beta z + xy
+\end{cases}
+</code></pre>
+
+<p>$$
+\begin{cases}
+\dot{x} &amp; = \sigma(y-x) \newline
+\dot{y} &amp; = \rho x - y - xz \newline
+\dot{z} &amp; = -\beta z + xy
+\end{cases}
+$$</p>
+
+
             </div>
         </div>
     </div>
 </div>
+
+
+
 <div class="footer column">
     <div class="container">
 

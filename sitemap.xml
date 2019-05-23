@@ -4,24 +4,24 @@
   
   <url>
     <loc>https://shijianxu.github.io/</loc>
-    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shijianxu.github.io/posts/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shijianxu.github.io/posts/setting-mathjax/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://shijianxu.github.io/posts/my-precious/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shijianxu.github.io/posts/</loc>
-    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shijianxu.github.io/posts/guided-filter/</loc>
-    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>

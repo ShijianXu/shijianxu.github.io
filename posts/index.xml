@@ -6,10 +6,21 @@
     <description>Recent content in Posts on DarthXSJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://shijianxu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting MathJax</title>
+      <link>https://shijianxu.github.io/posts/setting-mathjax/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shijianxu.github.io/posts/setting-mathjax/</guid>
+      <description>To write math expressions in Hugo, a popular method is using MathJax. This blog gives a quick and simple solution.
+First, write a script. I will copy the script as follow:
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot; async src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt; MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\[&#39;,&#39;\]&#39;]], processEscapes: true, processEnvironments: true, skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], TeX: { equationNumbers: { autoNumber: &amp;quot;AMS&amp;quot; }, extensions: [&amp;quot;AMSmath.js&amp;quot;, &amp;quot;AMSsymbols.js&amp;quot;] } } }); MathJax.Hub.Queue(function() { // Fix &amp;lt;code&amp;gt; tags after MathJax finishes running.</description>
+    </item>
     
     <item>
       <title>My Precious</title>
@@ -19,18 +30,6 @@
       <guid>https://shijianxu.github.io/posts/my-precious/</guid>
       <description> This post is used to record some interesting or wonderful things I found.
 Videos  7 HOUR 4K DRONE FILM: &amp;ldquo;Earth from Above&amp;rdquo; link  Books Websites  CAS: Cloud Appreciation Society Internet Archive: A non-profit library of free books, movies, software, music, websites, and more.  </description>
-    </item>
-    
-    <item>
-      <title>Guided Filter</title>
-      <link>https://shijianxu.github.io/posts/guided-filter/</link>
-      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://shijianxu.github.io/posts/guided-filter/</guid>
-      <description>math test
-Hello $x^2=y^2$ World
-Hello \(a^2=b^2\) World
-$$ x^2 = y^2 $$ \[ a^2 = b^2 \]</description>
     </item>
     
     <item>
