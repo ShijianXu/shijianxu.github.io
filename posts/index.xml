@@ -39,9 +39,9 @@ $$ x^2 = y^2 $$ \[ a^2 = b^2 \]</description>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://shijianxu.github.io/posts/unsupervised-learning-and-unpaired-learning/</guid>
-      <description> Recently, I was asked about a question: what is unsupervised training and what is unpaired training? Are they the same or are they different? More related problem will be: does GAN belong to unsupervised methods?
-In this post, I want discuss this interesting and important problem.
-Supervised Learning The definition of supervised learning:
+      <description> Recently, I was asked a question: what is unsupervised training and what is unpaired training? Are they the same or are they different? More related problem will be: does GAN belong to unsupervised methods?
+In this post, I want to discuss this interesting and important problem.
+Supervised Learning Supervised learning
 Unsupervised Learning Generative Adversarial Learning Unpaired Learning </description>
     </item>
     
