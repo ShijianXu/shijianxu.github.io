@@ -29,7 +29,7 @@ First, write a script. I will copy the script as follow:
       
       <guid>https://shijianxu.github.io/posts/my-precious/</guid>
       <description> This post is used to record some interesting or wonderful things I found.
-Videos  7 HOUR 4K DRONE FILM: &amp;ldquo;Earth from Above&amp;rdquo; link  Books Websites  CAS: Cloud Appreciation Society Internet Archive: A non-profit library of free books, movies, software, music, websites, and more.  </description>
+Videos  7 HOUR 4K DRONE FILM: &amp;ldquo;Earth from Above&amp;rdquo; link  Books 2019.5  《达芬奇密码》, $[$美$]$ 丹·布朗   Websites  CAS: Cloud Appreciation Society Internet Archive: A non-profit library of free books, movies, software, music, websites, and more. World Factbook: CIA The World Facthook  </description>
     </item>
     
     <item>
@@ -38,10 +38,10 @@ Videos  7 HOUR 4K DRONE FILM: &amp;ldquo;Earth from Above&amp;rdquo; link  Books
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://shijianxu.github.io/posts/unsupervised-learning-and-unpaired-learning/</guid>
-      <description> Recently, I was asked a question: what is unsupervised training and what is unpaired training? Are they the same or are they different? More related problem will be: does GAN belong to unsupervised methods?
+      <description>Recently, I was asked a question: what is unsupervised training and what is unpaired training? Are they the same or are they different? More related problem will be: does GAN belong to unsupervised methods?
 In this post, I want to discuss this interesting and important problem.
-Supervised Learning Supervised learning
-Unsupervised Learning Generative Adversarial Learning Unpaired Learning </description>
+Supervised Learning Supervised learning is very
+Unsupervised Learning Generative Adversarial Learning Unpaired Learning The core idea of unparied learning is that they do not required paired data, i.</description>
     </item>
     
   </channel>
