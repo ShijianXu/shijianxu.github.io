@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://shijianxu.github.io/about/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shijianxu.github.io/cv/</loc>
     <lastmod>2019-09-09T00:00:00+00:00</lastmod>
   </url>
@@ -15,11 +20,6 @@
   <url>
     <loc>https://shijianxu.github.io/posts/setting-mathjax/</loc>
     <lastmod>2019-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shijianxu.github.io/about/</loc>
-    <lastmod>2015-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
