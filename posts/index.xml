@@ -6,10 +6,20 @@
     <description>Recent content in Posts on DarthXSJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://shijianxu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Precious</title>
+      <link>https://shijianxu.github.io/posts/my-precious/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shijianxu.github.io/posts/my-precious/</guid>
+      <description>This post is used to record some interesting or wonderful things I read or found.
+Books 2019  《达芬奇密码》, $[$美$]$ 丹·布朗 《带一本书去巴黎》, 林达 《了不起的盖茨比》, $[$美$]$ 菲茨杰拉德 《复杂》 (Complexity: A Guided Tour) 梅拉妮•米歇尔 (Melanie Mitchell) 《德意志之鹰：纹章中的德国史》, 林纯洁 《存在主义咖啡馆：自由、存在和杏子鸡尾酒》 (At the Existentialist Café: Freedom, Being, and Apricot Cocktails), $[$英$]$ 莎拉·贝克韦尔 (Sarah Bakewell)  Websites  CAS: Cloud Appreciation Society Internet Archive: A non-profit library of free books, movies, software, music, websites, and more.</description>
+    </item>
     
     <item>
       <title>Setting MathJax</title>
@@ -20,16 +30,6 @@
       <description>To write math expressions in Hugo, a popular method is using MathJax. This blog gives a quick and simple solution.
 First, write a script. I will copy the script as follow:
 &amp;lt;script type=&amp;quot;text/javascript&amp;quot; async src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt; MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\[&#39;,&#39;\]&#39;]], processEscapes: true, processEnvironments: true, skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], TeX: { equationNumbers: { autoNumber: &amp;quot;AMS&amp;quot; }, extensions: [&amp;quot;AMSmath.js&amp;quot;, &amp;quot;AMSsymbols.js&amp;quot;] } } }); MathJax.Hub.Queue(function() { // Fix &amp;lt;code&amp;gt; tags after MathJax finishes running.</description>
-    </item>
-    
-    <item>
-      <title>My Precious</title>
-      <link>https://shijianxu.github.io/posts/my-precious/</link>
-      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://shijianxu.github.io/posts/my-precious/</guid>
-      <description>This post is used to record some interesting or wonderful things I read or found.
-Books 2019  《达芬奇密码》, $[$美$]$ 丹·布朗 《带一本书去巴黎》, 林达 《了不起的盖茨比》, $[$美$]$ 菲茨杰拉德 《复杂》 (Complexity：A Guided Tour) 梅拉妮•米歇尔 (Melanie Mitchell) 《德意志之鹰：纹章中的德国史》, 林纯洁 《存在主义咖啡馆：自由、存在和杏子鸡尾酒》 (At the Existentialist Café: Freedom, Being, and Apricot Cocktails), $[$英$]$ 莎拉·贝克韦尔 (Sarah Bakewell)  Websites  CAS: Cloud Appreciation Society Internet Archive: A non-profit library of free books, movies, software, music, websites, and more.</description>
     </item>
     
   </channel>
